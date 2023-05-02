@@ -1,0 +1,19 @@
+#!/bin/sh -l
+#FILENAME: rename_31mers.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=02:00:00
+#SBATCH --job-name rename_31mers
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+
+#This script is to rename the output 31mer file names. 
+
+for file in 31mers/*.31mers; 
+do read line; 
+cp -v "${file}" "${line}";  
+done < renamed_31mers.txt

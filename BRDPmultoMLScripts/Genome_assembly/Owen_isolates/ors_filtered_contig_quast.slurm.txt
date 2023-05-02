@@ -1,0 +1,26 @@
+#!/bin/sh -l
+#FILENAME: OW_ors_filtered_contig_quast.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=02:00:00
+#SBATCH --job-name OW_ors_filtered_contig_quast
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml quast/3.2
+
+#This script is to obtain assembly statistics (via quast) for the filtered (>= 500 bp) contigs. 
+
+#run commands
+for f in *_out
+	do
+	cd $f
+	if [ -e PM*contigs.fasta ]
+		then quast.py PM*contigs.fasta -o ${f}_filtered_quast
+	else [ echo "You done messed up" ]
+	fi
+cd ..
+done

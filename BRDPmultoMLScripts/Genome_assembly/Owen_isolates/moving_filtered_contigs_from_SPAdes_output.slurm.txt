@@ -1,0 +1,30 @@
+#!/bin/sh -l
+#FILENAME: moving_filtered_contigs_from_SPAdes.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --time=04:00:00
+#SBATCH --job-name OW_moving_filtered_contigs
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+
+#This script is for moving filtered (>= 500 bp) contigs from each output SPAdes file to a new file that contains just the filtered contigs.
+
+#run echo first to check
+for d in /scratch/bell/sheets27/BRD/Owen_assembly/*_spades/PM_spades*/; 
+	do 
+	echo "cd $d; 
+	cp PM_spades*filtered_contigs.fasta /scratch/bell/sheets27/BRD/Owen_assembly/filtered_contigs/";
+	done
+
+#run echo first to check
+for d in /scratch/bell/sheets27/BRD/Owen_assembly/*_spades/PM_spades*/;  
+	do 
+	cd $d; 
+	cp PM_spades*filtered_contigs.fasta /scratch/bell/sheets27/BRD/Owen_assembly/filtered_contigs/;
+	done
+ 
+#alter depending on name of directory and name of reads!

@@ -1,0 +1,20 @@
+#!/bin/sh -l
+#FILENAME: suffixerator.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=10:00:00
+#SBATCH --job-name suffixerator
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml GenomeTools
+
+#This script is to split the genomes (i.e., filtered contigs) into suffix arrays.
+
+#Run program
+echo "Run suffixerator to create suffix arrays"
+gt suffixerator -dna -pl -tis -suf -lcp -v -db /scratch/bell/sheets27/BRD/Kmer_creation/testing_filtered_contigs/*.fasta -indexname Pmult_assemblies
+echo "End"

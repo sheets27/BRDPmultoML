@@ -1,0 +1,272 @@
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133040.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133044.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133051.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+APH(3')-Ia
+APH(6)-Id
+APH(3'')-Ib
+sul2
+floR
+Erm(42)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133052.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133053.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133057.1_card_parse.txt
+Best_Hit_ARO
+APH(3')-Ia
+APH(6)-Id
+APH(3'')-Ib
+sul2
+Erm(42)
+tet(H)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133063.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133065.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+ROB-1
+Erm(42)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133073.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+floR
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133074.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133077.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133080.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+APH(3')-Ia
+APH(6)-Id
+APH(3'')-Ib
+sul2
+floR
+Erm(42)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133084.1_card_parse.txt
+Best_Hit_ARO
+APH(3')-Ia
+APH(6)-Id
+APH(3'')-Ib
+sul2
+Erm(42)
+tet(H)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133086.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133087.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+APH(3')-Ia
+APH(6)-Id
+APH(3'')-Ib
+sul2
+floR
+Erm(42)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133094.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+APH(3')-Ia
+APH(6)-Id
+APH(3'')-Ib
+sul2
+floR
+Erm(42)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133106.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Erm(42)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133109.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133110.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133115.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+APH(3')-Ia
+APH(6)-Id
+APH(3'')-Ib
+sul2
+floR
+Erm(42)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133120.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133122.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+APH(3')-Ia
+APH(6)-Id
+APH(3'')-Ib
+sul2
+floR
+Erm(42)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133124.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+APH(3')-Ia
+APH(6)-Id
+APH(3'')-Ib
+sul2
+floR
+Erm(42)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133125.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+APH(3')-Ia
+APH(6)-Id
+APH(3'')-Ib
+sul2
+floR
+Erm(42)
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+/scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades_SRR5133135.1_card_parse.txt
+Best_Hit_ARO
+tet(H)
+Erm(42)
+floR
+sul2
+APH(3'')-Ib
+APH(6)-Id
+APH(3')-Ia
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin

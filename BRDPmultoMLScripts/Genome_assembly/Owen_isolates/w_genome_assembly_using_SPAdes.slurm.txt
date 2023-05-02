@@ -1,0 +1,24 @@
+#!/bin/sh -l
+#FILENAME: OW_w_genome_assembly_using_SPAdes.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --time=04:00:00
+#SBATCH --job-name OW_w_SPAdes
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml spades/3.13.0
+
+#This script is to assemble the genomes of Owen et al., 2017 isolates.
+
+#run this first
+#while read s; do echo "spades.py -o PM_spades_${s}_out -1 w_fastqs/${s}_1_P.fastq -2 w_fastqs/${s}_2_P.fastq -s w_fastqs/${s}_1_U.fastq -s w_fastqs/${s}_2_U.fastq"; done <w_spades_names.txt
+
+#run this next
+while read s; do spades.py -o PM_spades_${s}_out -1 w_fastqs/${s}_1_P.fastq -2 w_fastqs/${s}_2_P.fastq -s w_fastqs/${s}_1_U.fastq -s w_fastqs/${s}_2_U.fastq; done <w_spades_names.txt
+
+ 
+

@@ -1,0 +1,22 @@
+#!/bin/sh -l
+#FILENAME: tallymer_mkindex.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=10:00:00
+#SBATCH --job-name tallymer_mkindex
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml GenomeTools
+
+#This script is to index the suffix arrays and make them a size of 31 bp.
+
+#run mkindex program to count and index k-mers for a fixed value of k
+gt tallymer mkindex -scan -mersize 31 -minocc 1 -indexname Pmult_index -counts -pl -esa Pmult_assemblies
+
+ 
+
+

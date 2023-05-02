@@ -1,0 +1,22 @@
+#!/bin/sh -l
+#FILENAME: OW_w_first_fastqc.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=02:00:00
+#SBATCH --job-name OW_w_first_fastqc
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml fastqc/0.12.1
+
+#This script converts the orginal fastq files into a fastqc that can then be downloaded and visualized for sequence quality.
+
+#make output directory
+mkdir w_first_fastqc_output
+
+#have fastqc create fastqc.html and a fastqc.zip from the fastq files
+fastqc -o w_first_fastqc_output/ w_fastqs/*.fastq
+

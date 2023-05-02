@@ -1,0 +1,29 @@
+#!/bin/sh -l
+#FILENAME: OW_card_parse.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=10:00:00
+#SBATCH --job-name OW_card_parse
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml purge
+ml bioinfo rgi/6.0.1
+
+#This script is to parse the card output to only include columns that are relevant.
+
+#RUN ECHO FIRST#
+for f in /scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades*card.out.txt
+do
+	echo "awk '{print $2 "," $9 "," $11 "," $12 "," $13 "," $15 "," $16 "," $17 "," $21}' FS='\t' $f > ${f%_out_filtered_contigs.fasta_card.out.txt}_card_parse.txt"
+done
+
+#RUN ACTUAL COMMAND#
+for f in /scratch/bell/sheets27/BRD/Owen_card/fastqs/PM_spades*card.out.txt
+do
+        awk '{print $2 "," $9 "," $11 "," $12 "," $13 "," $15 "," $16 "," $17 "," $21}' FS='\t' $f > ${f%_out_filtered_contigs.fasta_card.out.txt}_card_pars$
+done
+
+

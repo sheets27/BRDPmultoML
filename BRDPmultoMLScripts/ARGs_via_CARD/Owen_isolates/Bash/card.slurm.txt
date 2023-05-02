@@ -1,0 +1,33 @@
+#!/bin/sh -l
+#FILENAME: Ow_card.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=10:00:00
+#SBATCH --job-name OW_card
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml purge
+ml bioinfo rgi/6.0.1
+
+#This script is to upload the genome assemblies (i.e., filtered contigs) into the Comprehensive Antibiotic Resistance Database (CARD).
+
+#make card.json
+wget https://card.mcmaster.ca/latest/data
+tar -xvf data ./card.json
+
+#load rgi database locally
+rgi load --card_json card.json --local
+
+#run commands
+for f in /scratch/bell/sheets27/BRD/Owen_card/fastqs/*.fasta
+do
+	rgi main --input_sequence $f \
+  --output_file ${f%_contigs.}_card.out --input_type contig -d wgs --local \
+  --exclude_nudge --clean
+done
+
+
+

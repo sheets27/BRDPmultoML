@@ -1,0 +1,71 @@
+Kover Learning Report
+=====================
+
+Running time: 0:01:14.090772
+
+Configuration:
+--------------
+authorized_rules: 
+bound_delta: 0.05
+bound_max_genome_size: None
+dataset: TULA.kover
+hp_choice: cv
+kmer_blacklist: None
+max_equiv_rules: 10000
+max_rules: 5
+model_type: ['conjunction', 'disjunction']
+n_cpu: 2
+output_dir: .
+p: [0.1, 0.178, 0.316, 0.562, 1.0, 1.778, 3.162, 5.623, 10.0]
+progress: True
+random_seed: None
+split: TULA_split
+verbose: False
+
+Data summary:
+-------------
+Dataset file: /scratch/bell/sheets27/BRD/Data2/TULA/KOVER_TULA/TULA.kover
+Dataset UUID: 9ebb3468-cb21-11ed-a739-00000190fe80
+Phenotype: Tulathromycin
+Genomic data type: tsv
+Split: TULA_split
+Number of genomes used for training: 64 (Group 0: 56, Group 1: 8)
+Number of genomes used for testing: 32 (Group 0: 26, Group 1: 6)
+Number of k-mers: 10734128
+
+Hyperparameter Values:
+----------------------
+Selection strategy: 5-fold cross-validation (score = 0.07692)
+Model type: disjunction
+p: 0.316000
+Maximum number of rules: 1
+
+Metrics (training data)
+-----------------------
+Error Rate: 0.0625
+Sensitivity: 0.875
+Specificity: 0.94643
+Precision: 0.7
+Recall: 0.875
+F1 Score: 0.77778
+True Positives: 7.0
+True Negatives: 53.0
+False Positives: 3.0
+False Negatives: 1.0
+
+Metrics (testing data)
+----------------------
+Error Rate: 0.1875
+Sensitivity: 0.5
+Specificity: 0.88462
+Precision: 0.5
+Recall: 0.5
+F1 Score: 0.5
+True Positives: 3.0
+True Negatives: 23.0
+False Positives: 3.0
+False Negatives: 3.0
+
+Model (Disjunction - 1 rules):
+------------------------------
+Presence(taactgccgtataggcagcttagaaatgttg) [Importance: 1.00, 1 equivalent rules]

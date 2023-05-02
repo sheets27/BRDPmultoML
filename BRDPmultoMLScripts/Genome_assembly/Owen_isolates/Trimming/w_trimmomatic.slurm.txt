@@ -1,0 +1,71 @@
+#!/bin/sh -l
+#FILENAME: OW_w_trimmomatic.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --time=010:00:00
+#SBATCH --job-name OW_w_trimmomatic
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml trimmomatic/0.39
+
+#This script trims the orginal sequences to improve quality by removing left-over adapters or primers that orginated from sequencing.
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133040.1_1.fastq w_fastqs/SRR5133040.1_2.fastq SRR5133040.1_1_P.fastq SRR5133040.1_1_U.fastq SRR5133040.1_2_P.fastq SRR5133040.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133051.1_1.fastq w_fastqs/SRR5133051.1_2.fastq SRR5133051.1_1_P.fastq SRR5133051.1_1_U.fastq SRR5133051.1_2_P.fastq SRR5133051.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133052.1_1.fastq w_fastqs/SRR5133052.1_2.fastq SRR5133052.1_1_P.fastq SRR5133052.1_1_U.fastq SRR5133052.1_2_P.fastq SRR5133052.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133053.1_1.fastq w_fastqs/SRR5133053.1_2.fastq SRR5133053.1_1_P.fastq SRR5133053.1_1_U.fastq SRR5133053.1_2_P.fastq SRR5133053.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133057.1_1.fastq w_fastqs/SRR5133057.1_2.fastq SRR5133057.1_1_P.fastq SRR5133057.1_1_U.fastq SRR5133057.1_2_P.fastq SRR5133057.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133063.1_1.fastq w_fastqs/SRR5133063.1_2.fastq SRR5133063.1_1_P.fastq SRR5133063.1_1_U.fastq SRR5133063.1_2_P.fastq SRR5133063.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133073.1_1.fastq w_fastqs/SRR5133073.1_2.fastq SRR5133073.1_1_P.fastq SRR5133073.1_1_U.fastq SRR5133073.1_2_P.fastq SRR5133073.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133077.1_1.fastq w_fastqs/SRR5133077.1_2.fastq SRR5133077.1_1_P.fastq SRR5133077.1_1_U.fastq SRR5133077.1_2_P.fastq SRR5133077.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133084.1_1.fastq w_fastqs/SRR5133084.1_2.fastq SRR5133084.1_1_P.fastq SRR5133084.1_1_U.fastq SRR5133084.1_2_P.fastq SRR5133084.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133086.1_1.fastq w_fastqs/SRR5133086.1_2.fastq SRR5133086.1_1_P.fastq SRR5133086.1_1_U.fastq SRR5133086.1_2_P.fastq SRR5133086.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133087.1_1.fastq w_fastqs/SRR5133087.1_2.fastq SRR5133087.1_1_P.fastq SRR5133087.1_1_U.fastq SRR5133087.1_2_P.fastq SRR5133087.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133106.1_1.fastq w_fastqs/SRR5133106.1_2.fastq SRR5133106.1_1_P.fastq SRR5133106.1_1_U.fastq SRR5133106.1_2_P.fastq SRR5133106.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133109.1_1.fastq w_fastqs/SRR5133109.1_2.fastq SRR5133109.1_1_P.fastq SRR5133109.1_1_U.fastq SRR5133109.1_2_P.fastq SRR5133109.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133110.1_1.fastq w_fastqs/SRR5133110.1_2.fastq SRR5133110.1_1_P.fastq SRR5133110.1_1_U.fastq SRR5133110.1_2_P.fastq SRR5133110.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133120.1_1.fastq w_fastqs/SRR5133120.1_2.fastq SRR5133120.1_1_P.fastq SRR5133120.1_1_U.fastq SRR5133120.1_2_P.fastq SRR5133120.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133122.1_1.fastq w_fastqs/SRR5133122.1_2.fastq SRR5133122.1_1_P.fastq SRR5133122.1_1_U.fastq SRR5133122.1_2_P.fastq SRR5133122.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133124.1_1.fastq w_fastqs/SRR5133124.1_2.fastq SRR5133124.1_1_P.fastq SRR5133124.1_1_U.fastq SRR5133124.1_2_P.fastq SRR5133124.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133125.1_1.fastq w_fastqs/SRR5133125.1_2.fastq SRR5133125.1_1_P.fastq SRR5133125.1_1_U.fastq SRR5133125.1_2_P.fastq SRR5133125.1_2_U.fastq AVGQUAL:25
+
+
+trimmomatic PE -threads 10 w_fastqs/SRR5133135.1_1.fastq w_fastqs/SRR5133135.1_2.fastq SRR5133135.1_1_P.fastq SRR5133135.1_1_U.fastq SRR5133135.1_2_P.fastq SRR5133135.1_2_U.fastq AVGQUAL:25

@@ -1,0 +1,23 @@
+#!/bin/sh -l
+#FILENAME: Ow_combine_card_parse.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=10:00:00
+#SBATCH --job-name OW_combine_card_parse
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+
+#This script is to combine all of the parsed card outputs into a single text file.
+
+for file in /scratch/bell/sheets27/BRD/Owen_card/fastqs/*card_parse.txt; 
+do 
+	awk -F ',' 'BEGIN{print ARGV[1]}{ print $2}END{}' $file >> combined_card_parse.txt; 
+done
+
+
+
+
+
+

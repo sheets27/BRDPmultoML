@@ -1,0 +1,29 @@
+#install libraries
+library(tidyverse)
+
+#set working directory where the input files are located
+setwd("/scratch/bell/sheets27/BRD/Data2/DANO/Creating_DANO_kmer_matrix/")
+
+#load the list of the column names you want to remove
+cols_to_remove <- read.delim("Samples_to_remove_for_DANO.txt", header = FALSE, sep = "\t", dec = ".")
+
+#check out the loaded text file
+print(cols_to_remove)
+
+#make the df into a simple list
+cols <- cols_to_remove[, 1]
+
+#check out list
+print(cols)
+
+#load in short kmer matrix to practice. Will be loaded in as a df (checked by using 'class()')
+full_kmer_matrix <- read.delim("KM1.tsv")
+
+#remove the columns based on the list you made
+kmer_matrix1 <- full_kmer_matrix[, !(colnames(full_kmer_matrix) %in% c(cols))]
+
+#check out the new matrix to see if it kept the columns you wanted
+print(colnames("kmer_matrix1"))
+
+#save the DANO kmer matrix
+write_tsv(kmer_matrix1, "DANO_kmer_matrix.tsv")

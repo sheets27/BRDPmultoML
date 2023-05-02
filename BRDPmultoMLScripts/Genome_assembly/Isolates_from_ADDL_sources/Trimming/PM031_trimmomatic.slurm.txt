@@ -1,0 +1,17 @@
+#!/bin/sh -l
+#FILENAME: PU_PM031_trimmomatic.slurm
+#SBATCH -A highmem
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --time=010:00:00
+#SBATCH --job-name PU_PM031_trim
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml trimmomatic/0.39
+
+#This script trims the orginal sequence to improve quality by removing left-over adapters or primers that orginated from sequencing.
+
+trimmomatic PE -threads 10 fastqs/PM031_R1.fastq fastqs/PM031_R2.fastq PM031_R1_P.fastq PM031_R1_U.fastq PM031_R2_P.fastq PM031_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75

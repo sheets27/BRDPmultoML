@@ -1,0 +1,71 @@
+Kover Learning Report
+=====================
+
+Running time: 0:00:59.849299
+
+Configuration:
+--------------
+authorized_rules: 
+bound_delta: 0.05
+bound_max_genome_size: None
+dataset: ENRO.kover
+hp_choice: cv
+kmer_blacklist: None
+max_equiv_rules: 10000
+max_rules: 5
+model_type: ['conjunction', 'disjunction']
+n_cpu: 2
+output_dir: .
+p: [0.1, 0.178, 0.316, 0.562, 1.0, 1.778, 3.162, 5.623, 10.0]
+progress: True
+random_seed: None
+split: ENRO_split
+verbose: False
+
+Data summary:
+-------------
+Dataset file: /scratch/bell/sheets27/BRD/Data2/ENRO/KOVER_ENRO/ENRO.kover
+Dataset UUID: 88e7426c-cb1c-11ed-83ac-00000190fe80
+Phenotype: Enrofloxacin
+Genomic data type: tsv
+Split: ENRO_split
+Number of genomes used for training: 62 (Group 0: 55, Group 1: 7)
+Number of genomes used for testing: 31 (Group 0: 27, Group 1: 4)
+Number of k-mers: 10734128
+
+Hyperparameter Values:
+----------------------
+Selection strategy: 5-fold cross-validation (score = 0.09487)
+Model type: conjunction
+p: 1.000000
+Maximum number of rules: 1
+
+Metrics (training data)
+-----------------------
+Error Rate: 0.03226
+Sensitivity: 0.71429
+Specificity: 1.0
+Precision: 1.0
+Recall: 0.71429
+F1 Score: 0.83333
+True Positives: 5.0
+True Negatives: 55.0
+False Positives: 0.0
+False Negatives: 2.0
+
+Metrics (testing data)
+----------------------
+Error Rate: 0.0
+Sensitivity: 1.0
+Specificity: 1.0
+Precision: 1.0
+Recall: 1.0
+F1 Score: 1.0
+True Positives: 4.0
+True Negatives: 27.0
+False Positives: 0.0
+False Negatives: 0.0
+
+Model (Conjunction - 1 rules):
+------------------------------
+Presence(aacttattaagattcatattccaaactgctg) [Importance: 1.00, 115 equivalent rules]

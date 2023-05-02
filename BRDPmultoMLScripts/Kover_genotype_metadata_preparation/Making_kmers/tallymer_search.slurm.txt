@@ -1,0 +1,27 @@
+#!/bin/sh -l
+#FILENAME: tallymer_search.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=10:00:00
+#SBATCH --job-name tallymer_search
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml GenomeTools
+
+#This script is to count the number of kmers (i.e., 31mers) in each index/genome.
+
+#run search program  to search a set of k-mers in a tallymer-index
+for f in testing_filtered_contigs/*.fasta
+        do
+        gt tallymer search -output counts sequence -v -tyr Pmult_index -q $f > ${f/.fasta}.31mers
+done
+
+
+
+ 
+
+

@@ -1,0 +1,101 @@
+#!/bin/sh -l
+#FILENAME: PU_old_seqs_trimmomatic.slurm
+#SBATCH -A highmem
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --time=010:00:00
+#SBATCH --job-name PU_old_seqs_trimmomatic
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml trimmomatic/0.39
+
+#This script trims the orginal sequences to improve quality by removing left-over adapters or primers that orginated from sequencing.
+
+trimmomatic PE -threads 10 w_fastqs/PM001_R1.fastq.gz w_fastqs/PM001_R2.fastq.gz PM001_R1_P.fastq.gz PM001_R1_U.fastq.gz PM001_R2_P.fastq.gz PM001_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM002_R1.fastq.gz w_fastqs/PM002_R2.fastq.gz PM002_R1_P.fastq.gz PM002_R1_U.fastq.gz PM002_R2_P.fastq.gz PM002_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM003_R1.fastq.gz w_fastqs/PM003_R2.fastq.gz PM003_R1_P.fastq.gz PM003_R1_U.fastq.gz PM003_R2_P.fastq.gz PM003_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM004_R1.fastq.gz w_fastqs/PM004_R2.fastq.gz PM004_R1_P.fastq.gz PM004_R1_U.fastq.gz PM004_R2_P.fastq.gz PM004_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM005_R1.fastq.gz w_fastqs/PM005_R2.fastq.gz PM005_R1_P.fastq.gz PM005_R1_U.fastq.gz PM005_R2_P.fastq.gz PM005_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM006_R1.fastq.gz w_fastqs/PM006_R2.fastq.gz PM006_R1_P.fastq.gz PM006_R1_U.fastq.gz PM006_R2_P.fastq.gz PM006_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM007_R1.fastq.gz w_fastqs/PM007_R2.fastq.gz PM007_R1_P.fastq.gz PM007_R1_U.fastq.gz PM007_R2_P.fastq.gz PM007_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM008_R1.fastq.gz w_fastqs/PM008_R2.fastq.gz PM008_R1_P.fastq.gz PM008_R1_U.fastq.gz PM008_R2_P.fastq.gz PM008_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM009_R1.fastq.gz w_fastqs/PM009_R2.fastq.gz PM009_R1_P.fastq.gz PM009_R1_U.fastq.gz PM009_R2_P.fastq.gz PM009_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM010_R1.fastq.gz w_fastqs/PM010_R2.fastq.gz PM010_R1_P.fastq.gz PM010_R1_U.fastq.gz PM010_R2_P.fastq.gz PM010_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM011_R1.fastq.gz w_fastqs/PM011_R2.fastq.gz PM011_R1_P.fastq.gz PM011_R1_U.fastq.gz PM011_R2_P.fastq.gz PM011_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM012_R1.fastq.gz w_fastqs/PM012_R2.fastq.gz PM012_R1_P.fastq.gz PM012_R1_U.fastq.gz PM012_R2_P.fastq.gz PM012_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM013_R1.fastq.gz w_fastqs/PM013_R2.fastq.gz PM013_R1_P.fastq.gz PM013_R1_U.fastq.gz PM013_R2_P.fastq.gz PM013_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM014_R1.fastq.gz w_fastqs/PM014_R2.fastq.gz PM014_R1_P.fastq.gz PM014_R1_U.fastq.gz PM014_R2_P.fastq.gz PM014_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM015_R1.fastq.gz w_fastqs/PM015_R2.fastq.gz PM015_R1_P.fastq.gz PM015_R1_U.fastq.gz PM015_R2_P.fastq.gz PM015_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM016_R1.fastq.gz w_fastqs/PM016_R2.fastq.gz PM016_R1_P.fastq.gz PM016_R1_U.fastq.gz PM016_R2_P.fastq.gz PM016_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM017_R1.fastq.gz w_fastqs/PM017_R2.fastq.gz PM017_R1_P.fastq.gz PM017_R1_U.fastq.gz PM017_R2_P.fastq.gz PM017_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM018_R1.fastq.gz w_fastqs/PM018_R2.fastq.gz PM018_R1_P.fastq.gz PM018_R1_U.fastq.gz PM018_R2_P.fastq.gz PM018_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM019_R1.fastq.gz w_fastqs/PM019_R2.fastq.gz PM019_R1_P.fastq.gz PM019_R1_U.fastq.gz PM019_R2_P.fastq.gz PM019_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM020_R1.fastq.gz w_fastqs/PM020_R2.fastq.gz PM020_R1_P.fastq.gz PM020_R1_U.fastq.gz PM020_R2_P.fastq.gz PM020_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM021_R1.fastq.gz w_fastqs/PM021_R2.fastq.gz PM021_R1_P.fastq.gz PM021_R1_U.fastq.gz PM021_R2_P.fastq.gz PM021_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM022_R1.fastq.gz w_fastqs/PM022_R2.fastq.gz PM022_R1_P.fastq.gz PM022_R1_U.fastq.gz PM022_R2_P.fastq.gz PM022_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM023_R1.fastq.gz w_fastqs/PM023_R2.fastq.gz PM023_R1_P.fastq.gz PM023_R1_U.fastq.gz PM023_R2_P.fastq.gz PM023_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM024_R1.fastq.gz w_fastqs/PM024_R2.fastq.gz PM024_R1_P.fastq.gz PM024_R1_U.fastq.gz PM024_R2_P.fastq.gz PM024_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM025_R1.fastq.gz w_fastqs/PM025_R2.fastq.gz PM025_R1_P.fastq.gz PM025_R1_U.fastq.gz PM025_R2_P.fastq.gz PM025_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM026_R1.fastq.gz w_fastqs/PM026_R2.fastq.gz PM026_R1_P.fastq.gz PM026_R1_U.fastq.gz PM026_R2_P.fastq.gz PM026_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM027_R1.fastq.gz w_fastqs/PM027_R2.fastq.gz PM027_R1_P.fastq.gz PM027_R1_U.fastq.gz PM027_R2_P.fastq.gz PM027_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM028_R1.fastq.gz w_fastqs/PM028_R2.fastq.gz PM028_R1_P.fastq.gz PM028_R1_U.fastq.gz PM028_R2_P.fastq.gz PM028_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM029_R1.fastq.gz w_fastqs/PM029_R2.fastq.gz PM029_R1_P.fastq.gz PM029_R1_U.fastq.gz PM029_R2_P.fastq.gz PM029_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM030_R1.fastq.gz w_fastqs/PM030_R2.fastq.gz PM030_R1_P.fastq.gz PM030_R1_U.fastq.gz PM030_R2_P.fastq.gz PM030_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM032_R1.fastq.gz w_fastqs/PM032_R2.fastq.gz PM032_R1_P.fastq.gz PM032_R1_U.fastq.gz PM032_R2_P.fastq.gz PM032_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM033_R1.fastq.gz w_fastqs/PM033_R2.fastq.gz PM033_R1_P.fastq.gz PM033_R1_U.fastq.gz PM033_R2_P.fastq.gz PM033_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM034_R1.fastq.gz w_fastqs/PM034_R2.fastq.gz PM034_R1_P.fastq.gz PM034_R1_U.fastq.gz PM034_R2_P.fastq.gz PM034_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM035_R1.fastq.gz w_fastqs/PM035_R2.fastq.gz PM035_R1_P.fastq.gz PM035_R1_U.fastq.gz PM035_R2_P.fastq.gz PM035_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM036_R1.fastq.gz w_fastqs/PM036_R2.fastq.gz PM036_R1_P.fastq.gz PM036_R1_U.fastq.gz PM036_R2_P.fastq.gz PM036_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM037_R1.fastq.gz w_fastqs/PM037_R2.fastq.gz PM037_R1_P.fastq.gz PM037_R1_U.fastq.gz PM037_R2_P.fastq.gz PM037_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM038_R1.fastq.gz w_fastqs/PM038_R2.fastq.gz PM038_R1_P.fastq.gz PM038_R1_U.fastq.gz PM038_R2_P.fastq.gz PM038_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM039_R1.fastq.gz w_fastqs/PM039_R2.fastq.gz PM039_R1_P.fastq.gz PM039_R1_U.fastq.gz PM039_R2_P.fastq.gz PM039_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM040_R1.fastq.gz w_fastqs/PM040_R2.fastq.gz PM040_R1_P.fastq.gz PM040_R1_U.fastq.gz PM040_R2_P.fastq.gz PM040_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM041_R1.fastq.gz w_fastqs/PM041_R2.fastq.gz PM041_R1_P.fastq.gz PM041_R1_U.fastq.gz PM041_R2_P.fastq.gz PM041_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM042_R1.fastq.gz w_fastqs/PM042_R2.fastq.gz PM042_R1_P.fastq.gz PM042_R1_U.fastq.gz PM042_R2_P.fastq.gz PM042_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM043_R1.fastq.gz w_fastqs/PM043_R2.fastq.gz PM043_R1_P.fastq.gz PM043_R1_U.fastq.gz PM043_R2_P.fastq.gz PM043_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM044_R1.fastq.gz w_fastqs/PM044_R2.fastq.gz PM044_R1_P.fastq.gz PM044_R1_U.fastq.gz PM044_R2_P.fastq.gz PM044_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM045_R1.fastq.gz w_fastqs/PM045_R2.fastq.gz PM045_R1_P.fastq.gz PM045_R1_U.fastq.gz PM045_R2_P.fastq.gz PM045_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM046_R1.fastq.gz w_fastqs/PM046_R2.fastq.gz PM046_R1_P.fastq.gz PM046_R1_U.fastq.gz PM046_R2_P.fastq.gz PM046_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM047_R1.fastq.gz w_fastqs/PM047_R2.fastq.gz PM047_R1_P.fastq.gz PM047_R1_U.fastq.gz PM047_R2_P.fastq.gz PM047_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM048_R1.fastq.gz w_fastqs/PM048_R2.fastq.gz PM048_R1_P.fastq.gz PM048_R1_U.fastq.gz PM048_R2_P.fastq.gz PM048_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM049_R1.fastq.gz w_fastqs/PM049_R2.fastq.gz PM049_R1_P.fastq.gz PM049_R1_U.fastq.gz PM049_R2_P.fastq.gz PM049_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM050_R1.fastq.gz w_fastqs/PM050_R2.fastq.gz PM050_R1_P.fastq.gz PM050_R1_U.fastq.gz PM050_R2_P.fastq.gz PM050_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM051_R1.fastq w_fastqs/PM051_R2.fastq PM051_R1_P.fastq PM051_R1_U.fastq PM051_R2_P.fastq PM051_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM052_R1.fastq w_fastqs/PM052_R2.fastq PM052_R1_P.fastq PM052_R1_U.fastq PM052_R2_P.fastq PM052_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM053_R1.fastq w_fastqs/PM053_R2.fastq PM053_R1_P.fastq PM053_R1_U.fastq PM053_R2_P.fastq PM053_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM054_R1.fastq w_fastqs/PM054_R2.fastq PM054_R1_P.fastq PM054_R1_U.fastq PM054_R2_P.fastq PM054_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM055_R1.fastq w_fastqs/PM055_R2.fastq PM055_R1_P.fastq PM055_R1_U.fastq PM055_R2_P.fastq PM055_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM056_R1.fastq w_fastqs/PM056_R2.fastq PM056_R1_P.fastq PM056_R1_U.fastq PM056_R2_P.fastq PM056_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM057_R1.fastq w_fastqs/PM057_R2.fastq PM057_R1_P.fastq PM057_R1_U.fastq PM057_R2_P.fastq PM057_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM058_R1.fastq.gz w_fastqs/PM058_R2.fastq.gz PM058_R1_P.fastq.gz PM058_R1_U.fastq.gz PM058_R2_P.fastq.gz PM058_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM059_R1.fastq.gz w_fastqs/PM059_R2.fastq.gz PM059_R1_P.fastq.gz PM059_R1_U.fastq.gz PM059_R2_P.fastq.gz PM059_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM060_R1.fastq.gz w_fastqs/PM060_R2.fastq.gz PM060_R1_P.fastq.gz PM060_R1_U.fastq.gz PM060_R2_P.fastq.gz PM060_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM061_R1.fastq.gz w_fastqs/PM061_R2.fastq.gz PM061_R1_P.fastq.gz PM061_R1_U.fastq.gz PM061_R2_P.fastq.gz PM061_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM062_R1.fastq.gz w_fastqs/PM062_R2.fastq.gz PM062_R1_P.fastq.gz PM062_R1_U.fastq.gz PM062_R2_P.fastq.gz PM062_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM064_R1.fastq.gz w_fastqs/PM064_R2.fastq.gz PM064_R1_P.fastq.gz PM064_R1_U.fastq.gz PM064_R2_P.fastq.gz PM064_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM065_R1.fastq.gz w_fastqs/PM065_R2.fastq.gz PM065_R1_P.fastq.gz PM065_R1_U.fastq.gz PM065_R2_P.fastq.gz PM065_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM066_R1.fastq.gz w_fastqs/PM066_R2.fastq.gz PM066_R1_P.fastq.gz PM066_R1_U.fastq.gz PM066_R2_P.fastq.gz PM066_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM067_R1.fastq.gz w_fastqs/PM067_R2.fastq.gz PM067_R1_P.fastq.gz PM067_R1_U.fastq.gz PM067_R2_P.fastq.gz PM067_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM068_R1.fastq.gz w_fastqs/PM068_R2.fastq.gz PM068_R1_P.fastq.gz PM068_R1_U.fastq.gz PM068_R2_P.fastq.gz PM068_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM069_R1.fastq.gz w_fastqs/PM069_R2.fastq.gz PM069_R1_P.fastq.gz PM069_R1_U.fastq.gz PM069_R2_P.fastq.gz PM069_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM071_R1.fastq.gz w_fastqs/PM071_R2.fastq.gz PM071_R1_P.fastq.gz PM071_R1_U.fastq.gz PM071_R2_P.fastq.gz PM071_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM072_R1.fastq.gz w_fastqs/PM072_R2.fastq.gz PM072_R1_P.fastq.gz PM072_R1_U.fastq.gz PM072_R2_P.fastq.gz PM072_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM073_R1.fastq.gz w_fastqs/PM073_R2.fastq.gz PM073_R1_P.fastq.gz PM073_R1_U.fastq.gz PM073_R2_P.fastq.gz PM073_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM074_R1.fastq.gz w_fastqs/PM074_R2.fastq.gz PM074_R1_P.fastq.gz PM074_R1_U.fastq.gz PM074_R2_P.fastq.gz PM074_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM075_R1.fastq.gz w_fastqs/PM075_R2.fastq.gz PM075_R1_P.fastq.gz PM075_R1_U.fastq.gz PM075_R2_P.fastq.gz PM075_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM077_R1.fastq.gz w_fastqs/PM077_R2.fastq.gz PM077_R1_P.fastq.gz PM077_R1_U.fastq.gz PM077_R2_P.fastq.gz PM077_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM078_R1.fastq.gz w_fastqs/PM078_R2.fastq.gz PM078_R1_P.fastq.gz PM078_R1_U.fastq.gz PM078_R2_P.fastq.gz PM078_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM079_R1.fastq.gz w_fastqs/PM079_R2.fastq.gz PM079_R1_P.fastq.gz PM079_R1_U.fastq.gz PM079_R2_P.fastq.gz PM079_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM080_R1.fastq.gz w_fastqs/PM080_R2.fastq.gz PM080_R1_P.fastq.gz PM080_R1_U.fastq.gz PM080_R2_P.fastq.gz PM080_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM081_R1.fastq.gz w_fastqs/PM081_R2.fastq.gz PM081_R1_P.fastq.gz PM081_R1_U.fastq.gz PM081_R2_P.fastq.gz PM081_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM082_R1.fastq.gz w_fastqs/PM082_R2.fastq.gz PM082_R1_P.fastq.gz PM082_R1_U.fastq.gz PM082_R2_P.fastq.gz PM082_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM083_R1.fastq.gz w_fastqs/PM083_R2.fastq.gz PM083_R1_P.fastq.gz PM083_R1_U.fastq.gz PM083_R2_P.fastq.gz PM083_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM088_R1.fastq.gz w_fastqs/PM088_R2.fastq.gz PM088_R1_P.fastq.gz PM088_R1_U.fastq.gz PM088_R2_P.fastq.gz PM088_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM090_R1.fastq.gz w_fastqs/PM090_R2.fastq.gz PM090_R1_P.fastq.gz PM090_R1_U.fastq.gz PM090_R2_P.fastq.gz PM090_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM091_R1.fastq.gz w_fastqs/PM091_R2.fastq.gz PM091_R1_P.fastq.gz PM091_R1_U.fastq.gz PM091_R2_P.fastq.gz PM091_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM092_R1.fastq.gz w_fastqs/PM092_R2.fastq.gz PM092_R1_P.fastq.gz PM092_R1_U.fastq.gz PM092_R2_P.fastq.gz PM092_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM093_R1.fastq.gz w_fastqs/PM093_R2.fastq.gz PM093_R1_P.fastq.gz PM093_R1_U.fastq.gz PM093_R2_P.fastq.gz PM093_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 w_fastqs/PM094_R1.fastq.gz w_fastqs/PM094_R2.fastq.gz PM094_R1_P.fastq.gz PM094_R1_U.fastq.gz PM094_R2_P.fastq.gz PM094_R2_U.fastq.gz SLIDINGWINDOW:10:25 MINLEN:75

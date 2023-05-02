@@ -1,0 +1,22 @@
+#!/bin/sh -l
+#FILENAME: PU_trimmed_new_seqs_fastqc.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=02:00:00
+#SBATCH --job-name PU_trimmed_new_seqs_fastqc
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml fastqc/0.12.1
+
+#This script converts the trimmed fastq files into a fastqc that can then be downloaded and visualized for sequence quality after trimming. 
+
+#make output directory
+mkdir new_seqs_second_fastqc_output
+
+#have fastqc create fastqc.html and a fastqc.zip from the fastq files
+fastqc -o new_seqs_second_fastqc_output/ new_seqs_trimmed_fastqs/*[P,U].fastq*
+

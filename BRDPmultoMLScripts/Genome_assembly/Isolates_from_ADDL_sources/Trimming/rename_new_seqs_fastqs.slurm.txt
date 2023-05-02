@@ -1,0 +1,19 @@
+#!/bin/sh -l
+#FILENAME: PU_rename_new_seqs_fastqs.slurm
+#SBATCH -A john2185
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=02:00:00
+#SBATCH --job-name PU_rename_new_seqs_fastqs
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+
+#This script renames the downloaded sequences so they have a shorter ID.
+
+for file in nw_fastqs/*.fastq; 
+do read line; 
+cp -v "${file}" "${line}";  
+done < renamed_new_seqs_fastqs.txt

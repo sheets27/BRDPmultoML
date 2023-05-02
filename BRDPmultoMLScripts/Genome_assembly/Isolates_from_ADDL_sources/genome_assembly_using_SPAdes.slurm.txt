@@ -1,0 +1,24 @@
+#!/bin/sh -l
+#FILENAME: PU_genome_assembly_using_SPAdes.slurm
+#SBATCH -A highmem
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --time=24:00:00
+#SBATCH --job-name PU_SPAdes
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml spades/3.13.0
+
+#This script is to assemble the genomes of isolates that came from ADDL sources.
+
+#run this first to check
+#while read s; do echo "spades.py -o PM_spades_${s}_out -1 trimmed_fastqs/${s}_R1_P.fastq -2 trimmed_fastqs/${s}_R2_P.fastq -s trimmed_fastqs/${s}_R1_U.fastq -s trimmed_fastqs/${s}_R2_U.fastq"; done <PM_spades_names.txt
+
+#run this next
+while read s; do spades.py -o PM_spades_${s}_out -1 trimmed_fastqs/${s}_R1_P.fastq -2 trimmed_fastqs/${s}_R2_P.fastq -s trimmed_fastqs/${s}_R1_U.fastq -s trimmed_fastqs/${s}_R2_U.fastq; done <PM_spades_names.txt
+
+ 
+

@@ -1,0 +1,75 @@
+Kover Learning Report
+=====================
+
+Running time: 0:01:22.762765
+
+Configuration:
+--------------
+authorized_rules: 
+bound_delta: 0.05
+bound_max_genome_size: None
+dataset: FLOR.kover
+hp_choice: cv
+kmer_blacklist: None
+max_equiv_rules: 10000
+max_rules: 5
+model_type: ['conjunction', 'disjunction']
+n_cpu: 2
+output_dir: .
+p: [0.1, 0.178, 0.316, 0.562, 1.0, 1.778, 3.162, 5.623, 10.0]
+progress: True
+random_seed: None
+split: FLOR_split
+verbose: False
+
+Data summary:
+-------------
+Dataset file: /scratch/bell/sheets27/BRD/Data2/FLOR/KOVER_FLOR/FLOR.kover
+Dataset UUID: 5989cd90-cb1d-11ed-9bdc-00000190fe80
+Phenotype: Florfenicol
+Genomic data type: tsv
+Split: FLOR_split
+Number of genomes used for training: 58 (Group 0: 45, Group 1: 13)
+Number of genomes used for testing: 28 (Group 0: 22, Group 1: 6)
+Number of k-mers: 10734128
+
+Hyperparameter Values:
+----------------------
+Selection strategy: 5-fold cross-validation (score = 0.14091)
+Model type: conjunction
+p: 10.000000
+Maximum number of rules: 3
+
+Metrics (training data)
+-----------------------
+Error Rate: 0.01724
+Sensitivity: 1.0
+Specificity: 0.97778
+Precision: 0.92857
+Recall: 1.0
+F1 Score: 0.96296
+True Positives: 13.0
+True Negatives: 44.0
+False Positives: 1.0
+False Negatives: 0.0
+
+Metrics (testing data)
+----------------------
+Error Rate: 0.14286
+Sensitivity: 1.0
+Specificity: 0.81818
+Precision: 0.6
+Recall: 1.0
+F1 Score: 0.75
+True Positives: 6.0
+True Negatives: 18.0
+False Positives: 4.0
+False Negatives: 0.0
+
+Model (Conjunction - 3 rules):
+------------------------------
+Absence(aagaccatggcttcataacaagctgaatcac) [Importance: 0.59, 20 equivalent rules]
+AND
+Absence(acatggtgattcagcttgttatgaagccatg) [Importance: 0.34, 20 equivalent rules]
+AND
+Absence(ttctaagctgcctatacggcagttaactaat) [Importance: 0.11, 1 equivalent rules]

@@ -1,0 +1,27 @@
+#!/bin/sh -l
+#FILENAME: OW_ors_filtering_contigs_using_seqkit.slurm
+#SBATCH -A highmem
+#SBATCH --nodes=1
+#SBATCH --ntasks=10
+#SBATCH --time=02:00:00
+#SBATCH --job-name OW_ors_seqkit
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml biocontainers
+ml csvtk
+ml seqkit/2.1.0
+
+#This script filters contigs that are >= 500 bp in length after they have been created using SPAdes.
+
+for f in *_out;
+	do
+	cd $f;
+	if [ -e contigs.fasta ]
+		then seqkit fx2tab contigs.fasta | csvtk mutate -H -t -f 1 -p "cov_(.+)" | csvtk mutate -H -t -f 1 -p "length_([0-9]+)" | awk -F "\t" '$4>=2 && $5>=500' | seqkit tab2fx > ${f}_filtered_contigs.fasta
+	else [ echo "You done messed up" ]
+	fi
+cd ..
+done

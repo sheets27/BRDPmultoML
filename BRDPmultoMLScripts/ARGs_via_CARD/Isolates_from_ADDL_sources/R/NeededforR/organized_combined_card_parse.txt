@@ -1,0 +1,104 @@
+PM001	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM002	APH(3')-Ia	APH(6)-Id	APH(3'')-Ib	sul2	Erm(42)	mphE	msrE	OXA-2	aadA25	ANT(2'')-Ia	tet(H)	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin	
+PM003	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM004	tet(H)	APH(3')-Ia	APH(6)-Id	APH(3'')-Ib	sul2	floR	Erm(42)	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM005	tet(H)	Erm(42)	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin						
+PM006	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM007	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM008	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM009	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM010	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM011	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM012	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM013	tet(H)	Erm(42)	floR	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM014	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM015	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM016	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM017	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM018	tet(H)	APH(3')-Ia	APH(6)-Id	APH(3'')-Ib	sul2	floR	Erm(42)	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM019	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM020	APH(3')-Ia	APH(6)-Id	APH(3'')-Ib	sul2	sul2	tet(H)	tet(H)	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM021	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM022	tet(H)	Erm(42)	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin						
+PM023	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM024	APH(3')-Ia	APH(6)-Id	APH(3'')-Ib	sul2	sul2	tet(D)	tet(D)	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM025	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM026	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM027	sul2	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	tet(H)	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin						
+PM028	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM029	tet(H)	Erm(42)	floR	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM030	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM031	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM032	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM033	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM034	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM035	tet(H)	Erm(42)	floR	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	ANT(2'')-Ia	aadA25	OXA-2	msrE	mphE	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin
+PM036	tet(H)	Erm(42)	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	mphE	msrE	OXA-2	aadA25	ANT(2'')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin	
+PM037	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM038	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM039	tet(H)	tet(H)	sul2	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM040	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM041	sul2	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	tet(H)	tet(H)	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM042	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM043	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM044	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM045	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM046	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM047	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM048	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM049	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM050	tet(H)	Erm(42)	floR	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM051	tet(D)	tet(D)	sul2	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM052	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM053	tet(Y)	APH(3')-Ia	APH(6)-Id	dfrA14	ROB-10	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin						
+PM054	tet(H)	Erm(42)	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin						
+PM055	tet(H)	tet(H)	sul2	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM056	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM057	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM058	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM059	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM060	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM061	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin											
+PM062	salE	qacJ	FusF	vanY gene in vanM cluster	norC	norC	sdrM	sepA	vanT gene in vanG cluster	mphC	msrA	qacJ		
+PM063	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM064	tet(H)	qacG	floR	Erm(42)	msrE	mphE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM065	tet(H)	qacG	floR	Erm(42)	msrE	mphE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM066	tet(H)	qacG	Erm(42)	floR	msrE	mphE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM067	qacG	tet(H)	Erm(42)	floR	msrE	mphE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM068	tet(H)	qacG	Erm(42)	floR	mphE	msrE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM069	tet(H)	qacG	floR	Erm(42)	msrE	mphE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM070	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM071	tet(H)	tet(H)	sul2	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM072	tet(D)	tet(D)	sul2	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM073	norA	mgrA	dfrC	PC1 beta-lactamase (blaZ)	norC	sdrM	sepA	mdeA						
+PM074	tet(H)	qacG	floR	Erm(42)	msrE	mphE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM075	tet(H)	qacG	Erm(42)	floR	mphE	msrE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM076	qacG	tet(H)	floR	Erm(42)	msrE	mphE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM077	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM078	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM079	tet(H)	qacG	Erm(42)	floR	msrE	mphE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM080	qacG	tet(H)	floR	Erm(42)	msrE	mphE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM081	qacG	tet(H)	Erm(42)	floR	mphE	msrE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM082	tet(H)	qacG	Erm(42)	floR	msrE	mphE	dfrA14	APH(3')-Ia	sul2	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin			
+PM083	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics													
+PM084	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM085	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM086	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM087	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM088	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM089	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM090	tet(H)	tet(H)	sul2	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM091	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM092	APH(3')-Ia	APH(6)-Id	APH(3'')-Ib	sul2	sul2	tet(H)	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin						
+PM093	APH(3')-Ia	APH(6)-Id	APH(3'')-Ib	sul2	Erm(42)	tet(H)	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin						
+PM094	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM095	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM096	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM097	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM098	tet(H)	APH(3')-Ia	APH(6)-Id	APH(3'')-Ib	sul2	floR	Erm(42)	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM099	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM100	tet(H)	tet(H)	sul2	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM101	tet(H)	tet(H)	sul2	sul2	APH(3'')-Ib	APH(6)-Id	APH(3')-Ia	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin					
+PM102	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM103	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												
+PM104	Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics	Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin												

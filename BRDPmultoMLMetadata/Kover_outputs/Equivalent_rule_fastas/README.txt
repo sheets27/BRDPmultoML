@@ -1,0 +1,1 @@
+The antibiotic abbreviation (i.e., DANO, ENRO, TILM, or TULA) is followed by a number which indicates the ruleset (sets of equivalent rules). Tilmicosin was the only antibitoic to produce a model with more than one rule set and therefore there is TILM_1 and TILM_2.

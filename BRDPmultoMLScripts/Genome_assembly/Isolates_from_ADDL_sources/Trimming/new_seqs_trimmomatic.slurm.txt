@@ -1,0 +1,34 @@
+#!/bin/sh -l
+#FILENAME: PU_new_seqs_trimmomatic.slurm
+#SBATCH -A highmem
+#SBATCH --nodes=1
+#SBATCH --ntasks=100
+#SBATCH --time=010:00:00
+#SBATCH --job-name PU_new_seqs_trimmomatic
+#SBATCH --mail-type=abort,end
+#change directory to where job was submitted
+cd $SLURM_SUBMIT_DIR
+#load modules
+ml bioinfo
+ml trimmomatic/0.39
+
+#This script trims the orginal sequences to improve quality by removing left-over adapters or primers that orginated from sequencing.
+
+trimmomatic PE -threads 10 nw_fastqs/PM063_R1.fastq nw_fastqs/PM063_R2.fastq PM063_R1_P.fastq PM063_R1_U.fastq PM063_R2_P.fastq PM063_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM070_R1.fastq nw_fastqs/PM070_R2.fastq PM070_R1_P.fastq PM070_R1_U.fastq PM070_R2_P.fastq PM070_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM076_R1.fastq nw_fastqs/PM076_R2.fastq PM076_R1_P.fastq PM076_R1_U.fastq PM076_R2_P.fastq PM076_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM084_R1.fastq nw_fastqs/PM084_R2.fastq PM084_R1_P.fastq PM084_R1_U.fastq PM084_R2_P.fastq PM084_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM085_R1.fastq nw_fastqs/PM085_R2.fastq PM085_R1_P.fastq PM085_R1_U.fastq PM085_R2_P.fastq PM085_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM086_R1.fastq nw_fastqs/PM086_R2.fastq PM086_R1_P.fastq PM086_R1_U.fastq PM086_R2_P.fastq PM086_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM087_R1.fastq nw_fastqs/PM087_R2.fastq PM087_R1_P.fastq PM087_R1_U.fastq PM087_R2_P.fastq PM087_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM089_R1.fastq nw_fastqs/PM089_R2.fastq PM089_R1_P.fastq PM089_R1_U.fastq PM089_R2_P.fastq PM089_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM095_R1.fastq nw_fastqs/PM095_R2.fastq PM095_R1_P.fastq PM095_R1_U.fastq PM095_R2_P.fastq PM095_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM096_R1.fastq nw_fastqs/PM096_R2.fastq PM096_R1_P.fastq PM096_R1_U.fastq PM096_R2_P.fastq PM096_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM097_R1.fastq nw_fastqs/PM097_R2.fastq PM097_R1_P.fastq PM097_R1_U.fastq PM097_R2_P.fastq PM097_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM098_R1.fastq nw_fastqs/PM098_R2.fastq PM098_R1_P.fastq PM098_R1_U.fastq PM098_R2_P.fastq PM098_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM099_R1.fastq nw_fastqs/PM099_R2.fastq PM099_R1_P.fastq PM099_R1_U.fastq PM099_R2_P.fastq PM099_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM100_R1.fastq nw_fastqs/PM100_R2.fastq PM100_R1_P.fastq PM100_R1_U.fastq PM100_R2_P.fastq PM100_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM101_R1.fastq nw_fastqs/PM101_R2.fastq PM101_R1_P.fastq PM101_R1_U.fastq PM101_R2_P.fastq PM101_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM102_R1.fastq nw_fastqs/PM102_R2.fastq PM102_R1_P.fastq PM102_R1_U.fastq PM102_R2_P.fastq PM102_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM103_R1.fastq nw_fastqs/PM103_R2.fastq PM103_R1_P.fastq PM103_R1_U.fastq PM103_R2_P.fastq PM103_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
+trimmomatic PE -threads 10 nw_fastqs/PM104_R1.fastq nw_fastqs/PM104_R2.fastq PM104_R1_P.fastq PM104_R1_U.fastq PM104_R2_P.fastq PM104_R2_U.fastq SLIDINGWINDOW:10:25 MINLEN:75
