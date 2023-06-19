@@ -27,6 +27,7 @@ kover dataset info --dataset TILM.kover --genome-count --kmer-count
 
 #split the dataset into training and testing
 kover dataset split --dataset TILM.kover --id TILM_split --train-size 0.666 --folds 5 --random-seed 9 --progress
+#NOTE: the value for the '--random-seed' parameter (i.e., 9 in this case) was the only modification to the present script when testing random seeds 
 
 #learn the model
 kover learn scm --dataset TILM.kover --split TILM_split --model-type conjunction disjunction --p 0.1 0.178 0.316 0.562 1.0 1.778 3.162 5.623 10.0 --max-rules 5 --hp-choice cv --n-cpu 2 --progress
