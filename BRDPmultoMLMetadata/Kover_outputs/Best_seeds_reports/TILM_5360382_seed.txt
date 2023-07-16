@@ -1,0 +1,73 @@
+Kover Learning Report
+=====================
+
+Running time: 0:01:57.731300
+
+Configuration:
+--------------
+authorized_rules:
+bound_delta: 0.05
+bound_max_genome_size: None
+dataset: TILM.kover
+hp_choice: cv
+kmer_blacklist: None
+max_equiv_rules: 10000
+max_rules: 5
+model_type: ['conjunction', 'disjunction']
+n_cpu: 2
+output_dir: .
+p: [0.1, 0.178, 0.316, 0.562, 1.0, 1.778, 3.162, 5.623, 10.0]
+progress: True
+random_seed: None
+split: TILM_split
+verbose: False
+
+Data summary:
+-------------
+Dataset file: /scratch/bell/sheets27/Manuscript/Testing_new_seeds/5360382_seed/TILM/KOVER_TILM/TILM.kover
+Dataset UUID: 94d10eea-094d-11ee-970f-0000018afe80
+Phenotype: Tilmicosin
+Genomic data type: tsv
+Split: TILM_split
+Number of genomes used for training: 67 (Group 0: 48, Group 1: 19)
+Number of genomes used for testing: 33 (Group 0: 26, Group 1: 7)
+Number of k-mers: 10734128
+
+Hyperparameter Values:
+----------------------
+Selection strategy: 5-fold cross-validation (score = 0.10220)
+Model type: conjunction
+p: 1.000000
+Maximum number of rules: 2
+
+Metrics (training data)
+-----------------------
+Error Rate: 0.07463
+Sensitivity: 0.73684
+Specificity: 1.0
+Precision: 1.0
+Recall: 0.73684
+F1 Score: 0.84848
+True Positives: 14.0
+True Negatives: 48.0
+False Positives: 0.0
+False Negatives: 5.0
+
+Metrics (testing data)
+----------------------
+Error Rate: 0.06061
+Sensitivity: 0.85714
+Specificity: 0.96154
+Precision: 0.85714
+Recall: 0.85714
+F1 Score: 0.85714
+True Positives: 6.0
+True Negatives: 25.0
+False Positives: 1.0
+False Negatives: 1.0
+
+Model (Conjunction - 2 rules):
+------------------------------
+Presence(aagggttgcgctcgttgcgggacttaaccca) [Importance: 0.94, 7382 equivalent rules]
+AND
+Absence(aaagccacatttgccgtgaccaataataata) [Importance: 0.60, 25 equivalent rules]

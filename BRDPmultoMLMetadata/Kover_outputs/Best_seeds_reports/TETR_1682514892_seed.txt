@@ -1,0 +1,75 @@
+Kover Learning Report
+=====================
+
+Running time: 0:01:26.214458
+
+Configuration:
+--------------
+authorized_rules:
+bound_delta: 0.05
+bound_max_genome_size: None
+dataset: TETR.kover
+hp_choice: cv
+kmer_blacklist: None
+max_equiv_rules: 10000
+max_rules: 5
+model_type: ['conjunction', 'disjunction']
+n_cpu: 2
+output_dir: .
+p: [0.1, 0.178, 0.316, 0.562, 1.0, 1.778, 3.162, 5.623, 10.0]
+progress: True
+random_seed: None
+split: TETR_split
+verbose: False
+
+Data summary:
+-------------
+Dataset file: /scratch/bell/sheets27/Manuscript/Testing_new_seeds/1682514892_seed/TETR/KOVER_TETR/TETR.kover
+Dataset UUID: 05fdfbdc-ffb7-11ed-b9c1-0000019cfe80
+Phenotype: Tetracycline
+Genomic data type: tsv
+Split: TETR_split
+Number of genomes used for training: 46 (Group 0: 34, Group 1: 12)
+Number of genomes used for testing: 23 (Group 0: 12, Group 1: 11)
+Number of k-mers: 10734128
+
+Hyperparameter Values:
+----------------------
+Selection strategy: 5-fold cross-validation (score = 0.15111)
+Model type: disjunction
+p: 1.778000
+Maximum number of rules: 3
+
+Metrics (training data)
+-----------------------
+Error Rate: 0.0
+Sensitivity: 1.0
+Specificity: 1.0
+Precision: 1.0
+Recall: 1.0
+F1 Score: 1.0
+True Positives: 12.0
+True Negatives: 34.0
+False Positives: 0.0
+False Negatives: 0.0
+
+Metrics (testing data)
+----------------------
+Error Rate: 0.08696
+Sensitivity: 0.81818
+Specificity: 1.0
+Precision: 1.0
+Recall: 0.81818
+F1 Score: 0.9
+True Positives: 9.0
+True Negatives: 12.0
+False Positives: 0.0
+False Negatives: 2.0
+
+Model (Disjunction - 3 rules):
+------------------------------
+Presence(aaaataaatttgtttccaaggaatttttatt) [Importance: 0.67, 62 equivalent rules]
+OR
+Presence(aaatcgtatatttttttggatattccatttt) [Importance: 0.42, 57 equivalent rules]
+OR
+Presence(aaaaaaacggttgattttattggaggaattc) [Importance: 0.58, 10000 equivalent rules]
