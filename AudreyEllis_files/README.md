@@ -1,6 +1,6 @@
 # Gene specific BLAST searches
 
-## All files and scripts within this directory were authored by Audrey Ellis and the original files and other work can be found at her github page github.com/AEllis123
+### All files and scripts within this directory were authored by Audrey Ellis and the original files and other work can be found at her github page github.com/AEllis123
 
 The information found in this directory was used for creation of a BLAST database, BLAST search, and coping BLAST results into one file for multiple sequence alignments (MSA) for Pasteurella multocida (PM) and Mannheimia haemolytica (MH).
 
