@@ -1,4 +1,4 @@
-###### **Gene specific BLAST searches**
+#**Gene specific BLAST searches**
 
 All files and scripts within this directory were authored by Audrey Ellis and the original files and other work can be found at her github page github.com/AEllis123
 
