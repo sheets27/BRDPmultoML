@@ -1,0 +1,19 @@
+#!/bin/bash -l
+#SBATCH --time=3:00:00
+#SBATCH -A john2185
+#SBATCH -n 10
+#SBATCH --output=/depot/john2185/data/ellis123/PM_Blast/task01.out
+#SBATCH --error=/depot/john2185/data/ellis123/PM_Blast/task01.error.out
+#SBATCH --job-name task01
+
+ml bioinfo
+ml blast
+
+for x in ../PM_spades/*.fasta; do blastx -query $x -db ../Blast_Database/PM64_protein_db -num_threads 2 -evalue 1e-125 -max_target_seqs 10 -out $x-blast-output.txt -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qseq"; done
+
+#Blast outputs will be in same directory where the blast was run. Move them into a new directory for easier reference. 
+mv *blast-output.txt ../PM_BlastSequences
+
+
+echo "End Time"
+date +"%d %B %Y %H:%M:%S"
