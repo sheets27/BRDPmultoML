@@ -1,0 +1,1 @@
+Output files from the BLAST were copied to one file using the scripts in this directory. The file was labeled based on the gene being search for, such as PM-gyrA.fa. The files, such as PM-gyrA.fa file, were then downloaded locally to use in Jalview for multiple seuqence alignment comparisons. 
